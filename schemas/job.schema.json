@@ -1,0 +1,214 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/pcpcchen-coder/AIFDETW/blob/main/schemas/job.schema.json",
+  "title": "AIFDETW Job Record",
+  "type": "object",
+  "required": [
+    "job_id",
+    "company",
+    "title",
+    "source_url",
+    "status",
+    "first_seen",
+    "last_checked"
+  ],
+  "properties": {
+    "job_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "company": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "location": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "work_mode": {
+      "enum": [
+        "onsite",
+        "hybrid",
+        "remote",
+        "unknown",
+        null
+      ]
+    },
+    "employment_type": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "seniority": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_name": {
+      "type": "string"
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "canonical_url": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri"
+    },
+    "description_summary": {
+      "type": "string"
+    },
+    "required_skills": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "preferred_skills": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "years_experience_min": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "salary_min": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "salary_max": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "salary_currency": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "salary_period": {
+      "enum": [
+        "hour",
+        "month",
+        "year",
+        "unknown",
+        null
+      ]
+    },
+    "salary_type": {
+      "enum": [
+        "published",
+        "estimated",
+        "unknown"
+      ]
+    },
+    "salary_basis": {
+      "type": "string"
+    },
+    "industry_tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "role_tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "match_score": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 100
+    },
+    "match_rationale": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "unconfirmed",
+        "closed_verified"
+      ]
+    },
+    "first_seen": {
+      "type": "string",
+      "format": "date"
+    },
+    "last_seen": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "last_checked": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "last_changed": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "change_summary": {
+      "type": "string"
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "observed_at",
+          "url",
+          "note"
+        ],
+        "properties": {
+          "observed_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}
