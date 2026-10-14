@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "timezone": "Asia/Taipei",
+  "geography": [
+    "Taiwan",
+    "Taipei",
+    "New Taipei",
+    "Taoyuan",
+    "Hsinchu",
+    "Taichung",
+    "Tainan",
+    "Kaohsiung",
+    "remote roles open to Taiwan"
+  ],
+  "target_titles": [
+    "AI Forward Deployed Engineer",
+    "Forward Deployed Engineer",
+    "Senior Forward Deployed Engineer",
+    "AI Solutions Engineer",
+    "AI Solution Architect",
+    "GenAI Engineer",
+    "Applied AI Engineer",
+    "AI Engineer (customer/enterprise deployment)",
+    "Solutions Architect (AI/GenAI)"
+  ],
+  "adjacent_titles": [
+    "Solutions Consultant (technical)",
+    "Customer Engineer (AI)",
+    "Enterprise AI Engineer",
+    "AI Platform Engineer"
+  ],
+  "target_domains": [
+    "AI agents",
+    "LLM applications",
+    "enterprise AI deployment",
+    "software engineering",
+    "manufacturing",
+    "energy",
+    "cloud",
+    "systems integration",
+    "industrial digitalization"
+  ],
+  "preferred_sources": [
+    {
+      "name": "104人力銀行",
+      "url": "https://www.104.com.tw/",
+      "priority": 1
+    },
+    {
+      "name": "LinkedIn Jobs",
+      "url": "https://www.linkedin.com/jobs/",
+      "priority": 1
+    },
+    {
+      "name": "Company career pages",
+      "priority": 2
+    },
+    {
+      "name": "Other reputable job boards",
+      "priority": 3
+    }
+  ],
+  "report_limits": {
+    "max_new_jobs": 5,
+    "max_changed_jobs": 5,
+    "max_watchlist_jobs": 5,
+    "target_report_length": "one page"
+  },
+  "matching_weights": {
+    "ai_and_agents": 25,
+    "software_and_systems": 20,
+    "enterprise_deployment": 20,
+    "manufacturing_or_energy": 15,
+    "seniority_and_scope": 10,
+    "location_and_compensation": 10
+  },
+  "policy": {
+    "salary": "Prefer employer-published figures. Any estimate must be labeled estimated and include its basis and source.",
+    "status": "A job missing from search results is unconfirmed, not closed. Use closed_verified only with direct evidence.",
+    "provenance": "Every job record must include a direct source URL and last_checked timestamp.",
+    "deduplication": "Prefer canonical URL; otherwise use normalized company + title + location and manually review ambiguous matches.",
+    "privacy": "Store job-posting data and professional matching rationale only; do not store sensitive personal data."
+  }
+}
