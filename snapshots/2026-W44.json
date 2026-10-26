@@ -1,0 +1,1662 @@
+{
+  "schema_version": 1,
+  "week": "2026-W44",
+  "scan_started_at": "2026-10-26T08:36:41+08:00",
+  "scan_completed_at": "2026-10-26T08:36:41+08:00",
+  "scan_type": "weekly_delta_with_imported_local_baseline",
+  "prior_snapshot": "2026-W43.json",
+  "baseline_commit": "cc62b31db0f4c9b6688a87311b226e9be7938ac0",
+  "comparison_available": true,
+  "comparison_scope": "Prior 23-entry local fallback imported into GitHub; search coverage differs, so only newly discovered listings are identified, not newly posted jobs.",
+  "sources_checked": [
+    {
+      "source": "104",
+      "coverage": "Public search/index pages, individual job pages often restricted",
+      "status": "partial"
+    },
+    {
+      "source": "LinkedIn",
+      "coverage": "Public listings via search index, direct pages inconsistent",
+      "status": "partial"
+    },
+    {
+      "source": "Employer careers",
+      "coverage": "Innowave Tech and Prudential Workday",
+      "status": "verified"
+    },
+    {
+      "source": "Yourator",
+      "coverage": "Profet AI",
+      "status": "verified"
+    }
+  ],
+  "counts": {
+    "prior": 23,
+    "newly_discovered": 8,
+    "total_ledger": 31,
+    "active": 19,
+    "unconfirmed": 9,
+    "closed_historical": 3,
+    "verified_closures_this_week": 0,
+    "verified_salary_changes_this_week": 0
+  },
+  "jobs": [
+    {
+      "job_id": "li-4474438506",
+      "company": "Teradyne",
+      "title": "AI Enablement Forward Deployed Engineer",
+      "location": "竹北",
+      "work_mode": "unknown",
+      "employment_type": "full-time",
+      "seniority": null,
+      "source_name": "LinkedIn",
+      "source_url": "https://tw.linkedin.com/jobs/view/4474438506",
+      "canonical_url": "https://tw.linkedin.com/jobs/view/4474438506",
+      "description_summary": "Prior-week tracked role; skills confirmed from public job descriptions: AI coding agents, Codex, Claude Code, LangChain, MCP, Full-stack, Production evaluation.",
+      "required_skills": [
+        "AI coding agents",
+        "Codex",
+        "Claude Code",
+        "LangChain",
+        "MCP",
+        "Full-stack",
+        "Production evaluation"
+      ],
+      "preferred_skills": [],
+      "years_experience_min": 3,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "salary_type": "unknown",
+      "salary_basis": "",
+      "industry_tags": [
+        "manufacturing",
+        "enterprise"
+      ],
+      "role_tags": [
+        "FDE radar"
+      ],
+      "match_score": 95,
+      "match_rationale": "2026-W43 evidence-based fit estimate; retained until detailed re-score.",
+      "status": "active",
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-26",
+      "last_checked": "2026-10-26T08:36:41+08:00",
+      "last_changed": null,
+      "change_summary": "Re-observed 2026-10-26; no verified substantive change",
+      "evidence": [
+        {
+          "observed_at": "2026-10-19T08:44:54+08:00",
+          "url": "https://tw.linkedin.com/jobs/view/4474438506",
+          "note": "Imported 2026-W43 fallback baseline"
+        },
+        {
+          "observed_at": "2026-10-26T08:36:41+08:00",
+          "url": "https://tw.linkedin.com/jobs/view/4474438506",
+          "note": "Re-observed via indexed source/linked job listing; no proven salary change"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "job_id": "104-95cgj",
+      "company": "華新麗華",
+      "title": "前端部署工程師 FDE",
+      "location": "台北信義",
+      "work_mode": "unknown",
+      "employment_type": "full-time",
+      "seniority": null,
+      "source_name": "104",
+      "source_url": "https://www.104.com.tw/job/95cgj",
+      "canonical_url": "https://www.104.com.tw/job/95cgj",
+      "description_summary": "Prior-week tracked role; skills confirmed from public job descriptions: LLM, AI Agent, OT/IT, API, SSO, Container, DevSecOps.",
+      "required_skills": [
+        "LLM",
+        "AI Agent",
+        "OT/IT",
+        "API",
+        "SSO",
+        "Container",
+        "DevSecOps"
+      ],
+      "preferred_skills": [],
+      "years_experience_min": 3,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "salary_type": "unknown",
+      "salary_basis": "",
+      "industry_tags": [
+        "manufacturing",
+        "enterprise"
+      ],
+      "role_tags": [
+        "FDE radar"
+      ],
+      "match_score": 94,
+      "match_rationale": "2026-W43 evidence-based fit estimate; retained until detailed re-score.",
+      "status": "active",
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-26",
+      "last_checked": "2026-10-26T08:36:41+08:00",
+      "last_changed": null,
+      "change_summary": "Re-observed 2026-10-26; no verified substantive change",
+      "evidence": [
+        {
+          "observed_at": "2026-10-19T08:44:54+08:00",
+          "url": "https://www.104.com.tw/job/95cgj",
+          "note": "Imported 2026-W43 fallback baseline"
+        },
+        {
+          "observed_at": "2026-10-26T08:36:41+08:00",
+          "url": "https://www.104.com.tw/job/95cgj",
+          "note": "Re-observed via indexed source/linked job listing; no proven salary change"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "job_id": "li-4443137404",
+      "company": "Micron Technology",
+      "title": "Full-Stack AI Engineer Industrial and Physical AI",
+      "location": "桃園",
+      "work_mode": "unknown",
+      "employment_type": "full-time",
+      "seniority": null,
+      "source_name": "LinkedIn",
+      "source_url": "https://www.linkedin.com/jobs/view/4443137404/",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4443137404/",
+      "description_summary": "Prior-week tracked role; skills confirmed from public job descriptions: Python, FastAPI, MES, Kubernetes, CI/CD, MLOps.",
+      "required_skills": [
+        "Python",
+        "FastAPI",
+        "MES",
+        "Kubernetes",
+        "CI/CD",
+        "MLOps"
+      ],
+      "preferred_skills": [],
+      "years_experience_min": 2,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "salary_type": "unknown",
+      "salary_basis": "",
+      "industry_tags": [
+        "manufacturing",
+        "cloud"
+      ],
+      "role_tags": [
+        "FDE radar"
+      ],
+      "match_score": 93,
+      "match_rationale": "2026-W43 evidence-based fit estimate; retained until detailed re-score.",
+      "status": "unconfirmed",
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-19",
+      "last_checked": "2026-10-19T08:44:54+08:00",
+      "last_changed": null,
+      "change_summary": "Not directly reverified 2026-10-26; not assumed closed",
+      "evidence": [
+        {
+          "observed_at": "2026-10-19T08:44:54+08:00",
+          "url": "https://www.linkedin.com/jobs/view/4443137404/",
+          "note": "Imported 2026-W43 fallback baseline"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "job_id": "li-4448903465",
+      "company": "NVIDIA",
+      "title": "Senior AI Agent Development Engineer",
+      "location": "新竹",
+      "work_mode": "unknown",
+      "employment_type": "full-time",
+      "seniority": null,
+      "source_name": "LinkedIn",
+      "source_url": "https://tw.linkedin.com/jobs/view/4448903465",
+      "canonical_url": "https://tw.linkedin.com/jobs/view/4448903465",
+      "description_summary": "Prior-week tracked role; skills confirmed from public job descriptions: AI Agent, LLM, RAG, Tool calling, CI/CD, Python.",
+      "required_skills": [
+        "AI Agent",
+        "LLM",
+        "RAG",
+        "Tool calling",
+        "CI/CD",
+        "Python"
+      ],
+      "preferred_skills": [],
+      "years_experience_min": 5,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "salary_type": "unknown",
+      "salary_basis": "",
+      "industry_tags": [
+        "ai_platform",
+        "manufacturing"
+      ],
+      "role_tags": [
+        "FDE radar"
+      ],
+      "match_score": 91,
+      "match_rationale": "2026-W43 evidence-based fit estimate; retained until detailed re-score.",
+      "status": "active",
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-26",
+      "last_checked": "2026-10-26T08:36:41+08:00",
+      "last_changed": null,
+      "change_summary": "Re-observed 2026-10-26; no verified substantive change",
+      "evidence": [
+        {
+          "observed_at": "2026-10-19T08:44:54+08:00",
+          "url": "https://tw.linkedin.com/jobs/view/4448903465",
+          "note": "Imported 2026-W43 fallback baseline"
+        },
+        {
+          "observed_at": "2026-10-26T08:36:41+08:00",
+          "url": "https://tw.linkedin.com/jobs/view/4448903465",
+          "note": "Re-observed via indexed source/linked job listing; no proven salary change"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "job_id": "104-92xbd",
+      "company": "十論科技",
+      "title": "Forward Deployed Engineer",
+      "location": "台北中山",
+      "work_mode": "unknown",
+      "employment_type": "full-time",
+      "seniority": null,
+      "source_name": "104",
+      "source_url": "https://www.104.com.tw/job/92xbd",
+      "canonical_url": "https://www.104.com.tw/job/92xbd",
+      "description_summary": "Prior-week tracked role; skills confirmed from public job descriptions: Agentic AI, Multi-agent, Digital Twin, On-prem, Enterprise integration.",
+      "required_skills": [
+        "Agentic AI",
+        "Multi-agent",
+        "Digital Twin",
+        "On-prem",
+        "Enterprise integration"
+      ],
+      "preferred_skills": [],
+      "years_experience_min": null,
+      "salary_min": 800000,
+      "salary_max": 1500000,
+      "salary_currency": "TWD",
+      "salary_period": "year",
+      "salary_type": "published",
+      "salary_basis": "2026-W43 observed posting; salary not re-verified this week",
+      "industry_tags": [
+        "enterprise",
+        "research"
+      ],
+      "role_tags": [
+        "FDE radar"
+      ],
+      "match_score": 91,
+      "match_rationale": "2026-W43 evidence-based fit estimate; retained until detailed re-score.",
+      "status": "active",
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-26",
+      "last_checked": "2026-10-26T08:36:41+08:00",
+      "last_changed": null,
+      "change_summary": "Re-observed 2026-10-26; no verified substantive change",
+      "evidence": [
+        {
+          "observed_at": "2026-10-19T08:44:54+08:00",
+          "url": "https://www.104.com.tw/job/92xbd",
+          "note": "Imported 2026-W43 fallback baseline"
+        },
+        {
+          "observed_at": "2026-10-26T08:36:41+08:00",
+          "url": "https://www.104.com.tw/job/92xbd",
+          "note": "Re-observed via indexed source/linked job listing; no proven salary change"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "job_id": "li-4440839956",
+      "company": "Instrumental",
+      "title": "Senior Forward Deployed Engineer Taiwan",
+      "location": "台灣工廠",
+      "work_mode": "unknown",
+      "employment_type": "full-time",
+      "seniority": null,
+      "source_name": "LinkedIn",
+      "source_url": "https://tw.linkedin.com/jobs/view/4440839956",
+      "canonical_url": "https://tw.linkedin.com/jobs/view/4440839956",
+      "description_summary": "Prior-week tracked role; skills confirmed from public job descriptions: Electronics manufacturing, Customer deployment, Yield optimization, Factory integration.",
+      "required_skills": [
+        "Electronics manufacturing",
+        "Customer deployment",
+        "Yield optimization",
+        "Factory integration"
+      ],
+      "preferred_skills": [],
+      "years_experience_min": 5,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "salary_type": "unknown",
+      "salary_basis": "",
+      "industry_tags": [
+        "manufacturing"
+      ],
+      "role_tags": [
+        "FDE radar"
+      ],
+      "match_score": 90,
+      "match_rationale": "2026-W43 evidence-based fit estimate; retained until detailed re-score.",
+      "status": "active",
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-26",
+      "last_checked": "2026-10-26T08:36:41+08:00",
+      "last_changed": null,
+      "change_summary": "Re-observed 2026-10-26; no verified substantive change",
+      "evidence": [
+        {
+          "observed_at": "2026-10-19T08:44:54+08:00",
+          "url": "https://tw.linkedin.com/jobs/view/4440839956",
+          "note": "Imported 2026-W43 fallback baseline"
+        },
+        {
+          "observed_at": "2026-10-26T08:36:41+08:00",
+          "url": "https://tw.linkedin.com/jobs/view/4440839956",
+          "note": "Re-observed via indexed source/linked job listing; no proven salary change"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "job_id": "104-90oe4",
+      "company": "Pegatron",
+      "title": "EdgeAI FDE",
+      "location": "台北北投",
+      "work_mode": "unknown",
+      "employment_type": "full-time",
+      "seniority": null,
+      "source_name": "104",
+      "source_url": "https://www.104.com.tw/job/90oe4",
+      "canonical_url": "https://www.104.com.tw/job/90oe4",
+      "description_summary": "Prior-week tracked role; skills confirmed from public job descriptions: Edge AI, Computer Vision, LLM, MES, ERP, API.",
+      "required_skills": [
+        "Edge AI",
+        "Computer Vision",
+        "LLM",
+        "MES",
+        "ERP",
+        "API"
+      ],
+      "preferred_skills": [],
+      "years_experience_min": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "salary_type": "unknown",
+      "salary_basis": "",
+      "industry_tags": [
+        "manufacturing"
+      ],
+      "role_tags": [
+        "FDE radar"
+      ],
+      "match_score": 90,
+      "match_rationale": "2026-W43 evidence-based fit estimate; retained until detailed re-score.",
+      "status": "active",
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-26",
+      "last_checked": "2026-10-26T08:36:41+08:00",
+      "last_changed": null,
+      "change_summary": "Re-observed 2026-10-26; no verified substantive change",
+      "evidence": [
+        {
+          "observed_at": "2026-10-19T08:44:54+08:00",
+          "url": "https://www.104.com.tw/job/90oe4",
+          "note": "Imported 2026-W43 fallback baseline"
+        },
+        {
+          "observed_at": "2026-10-26T08:36:41+08:00",
+          "url": "https://www.104.com.tw/job/90oe4",
+          "note": "Re-observed via indexed source/linked job listing; no proven salary change"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "job_id": "li-4470292479",
+      "company": "Going Cloud",
+      "title": "Senior Forward Deployed Engineer GenAI Solutions",
+      "location": "台北",
+      "work_mode": "unknown",
+      "employment_type": "full-time",
+      "seniority": null,
+      "source_name": "LinkedIn",
+      "source_url": "https://tw.linkedin.com/jobs/view/4470292479",
+      "canonical_url": "https://tw.linkedin.com/jobs/view/4470292479",
+      "description_summary": "Prior-week tracked role; skills confirmed from public job descriptions: AWS, Terraform, CI/CD, Kubernetes, Python, Production.",
+      "required_skills": [
+        "AWS",
+        "Terraform",
+        "CI/CD",
+        "Kubernetes",
+        "Python",
+        "Production"
+      ],
+      "preferred_skills": [],
+      "years_experience_min": 3,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "salary_type": "unknown",
+      "salary_basis": "",
+      "industry_tags": [
+        "enterprise",
+        "cloud"
+      ],
+      "role_tags": [
+        "FDE radar"
+      ],
+      "match_score": 89,
+      "match_rationale": "2026-W43 evidence-based fit estimate; retained until detailed re-score.",
+      "status": "active",
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-26",
+      "last_checked": "2026-10-26T08:36:41+08:00",
+      "last_changed": null,
+      "change_summary": "Re-observed 2026-10-26; no verified substantive change",
+      "evidence": [
+        {
+          "observed_at": "2026-10-19T08:44:54+08:00",
+          "url": "https://tw.linkedin.com/jobs/view/4470292479",
+          "note": "Imported 2026-W43 fallback baseline"
+        },
+        {
+          "observed_at": "2026-10-26T08:36:41+08:00",
+          "url": "https://tw.linkedin.com/jobs/view/4470292479",
+          "note": "Re-observed via indexed source/linked job listing; no proven salary change"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "job_id": "li-4428878102",
+      "company": "TrendAI",
+      "title": "Sr Applied AI Engineer",
+      "location": "台北",
+      "work_mode": "unknown",
+      "employment_type": "full-time",
+      "seniority": null,
+      "source_name": "LinkedIn",
+      "source_url": "https://tw.linkedin.com/jobs/view/4428878102",
+      "canonical_url": "https://tw.linkedin.com/jobs/view/4428878102",
+      "description_summary": "Prior-week tracked listing; detailed requirements not re-verified this week.",
+      "required_skills": [],
+      "preferred_skills": [],
+      "years_experience_min": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "salary_type": "unknown",
+      "salary_basis": "",
+      "industry_tags": [],
+      "role_tags": [
+        "FDE radar"
+      ],
+      "match_score": 89,
+      "match_rationale": "2026-W43 evidence-based fit estimate; retained until detailed re-score.",
+      "status": "unconfirmed",
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-19",
+      "last_checked": "2026-10-19T08:44:54+08:00",
+      "last_changed": null,
+      "change_summary": "Not directly reverified 2026-10-26; not assumed closed",
+      "evidence": [
+        {
+          "observed_at": "2026-10-19T08:44:54+08:00",
+          "url": "https://tw.linkedin.com/jobs/view/4428878102",
+          "note": "Imported 2026-W43 fallback baseline"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "job_id": "104-93zt4",
+      "company": "永豐餘投資控股",
+      "title": "Z-AI應用工程師 FDE",
+      "location": "台北中正",
+      "work_mode": "unknown",
+      "employment_type": "full-time",
+      "seniority": null,
+      "source_name": "104",
+      "source_url": "https://www.104.com.tw/job/93zt4",
+      "canonical_url": "https://www.104.com.tw/job/93zt4",
+      "description_summary": "Prior-week tracked role; skills confirmed from public job descriptions: AI Agent, ERP, EIP, TDD, CI/CD.",
+      "required_skills": [
+        "AI Agent",
+        "ERP",
+        "EIP",
+        "TDD",
+        "CI/CD"
+      ],
+      "preferred_skills": [],
+      "years_experience_min": 5,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "salary_type": "unknown",
+      "salary_basis": "",
+      "industry_tags": [
+        "manufacturing",
+        "enterprise"
+      ],
+      "role_tags": [
+        "FDE radar"
+      ],
+      "match_score": 88,
+      "match_rationale": "2026-W43 evidence-based fit estimate; retained until detailed re-score.",
+      "status": "active",
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-26",
+      "last_checked": "2026-10-26T08:36:41+08:00",
+      "last_changed": null,
+      "change_summary": "Re-observed 2026-10-26; no verified substantive change",
+      "evidence": [
+        {
+          "observed_at": "2026-10-19T08:44:54+08:00",
+          "url": "https://www.104.com.tw/job/93zt4",
+          "note": "Imported 2026-W43 fallback baseline"
+        },
+        {
+          "observed_at": "2026-10-26T08:36:41+08:00",
+          "url": "https://www.104.com.tw/job/93zt4",
+          "note": "Re-observed via indexed source/linked job listing; no proven salary change"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "job_id": "104-95wjf",
+      "company": "樂達創意科技",
+      "title": "Forward Deployed Engineer",
+      "location": "桃園中壢",
+      "work_mode": "unknown",
+      "employment_type": "full-time",
+      "seniority": null,
+      "source_name": "104",
+      "source_url": "https://www.104.com.tw/job/95wjf",
+      "canonical_url": "https://www.104.com.tw/job/95wjf",
+      "description_summary": "Prior-week tracked role; skills confirmed from public job descriptions: RAG, LLM, Prompt Engineering, API, Customer deployment.",
+      "required_skills": [
+        "RAG",
+        "LLM",
+        "Prompt Engineering",
+        "API",
+        "Customer deployment"
+      ],
+      "preferred_skills": [],
+      "years_experience_min": 5,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "salary_type": "unknown",
+      "salary_basis": "",
+      "industry_tags": [
+        "enterprise"
+      ],
+      "role_tags": [
+        "FDE radar"
+      ],
+      "match_score": 88,
+      "match_rationale": "2026-W43 evidence-based fit estimate; retained until detailed re-score.",
+      "status": "active",
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-26",
+      "last_checked": "2026-10-26T08:36:41+08:00",
+      "last_changed": null,
+      "change_summary": "Re-observed 2026-10-26; no verified substantive change",
+      "evidence": [
+        {
+          "observed_at": "2026-10-19T08:44:54+08:00",
+          "url": "https://www.104.com.tw/job/95wjf",
+          "note": "Imported 2026-W43 fallback baseline"
+        },
+        {
+          "observed_at": "2026-10-26T08:36:41+08:00",
+          "url": "https://www.104.com.tw/job/95wjf",
+          "note": "Re-observed via indexed source/linked job listing; no proven salary change"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "job_id": "li-4441709853",
+      "company": "BCG X",
+      "title": "Lead Forward Deployed AI Engineer",
+      "location": "台北",
+      "work_mode": "unknown",
+      "employment_type": "full-time",
+      "seniority": null,
+      "source_name": "LinkedIn",
+      "source_url": "https://tw.linkedin.com/jobs/view/4441709853",
+      "canonical_url": "https://tw.linkedin.com/jobs/view/4441709853",
+      "description_summary": "Prior-week tracked role; skills confirmed from public job descriptions: Agentic AI, Python, Full-stack, CI/CD, Enterprise deployment.",
+      "required_skills": [
+        "Agentic AI",
+        "Python",
+        "Full-stack",
+        "CI/CD",
+        "Enterprise deployment"
+      ],
+      "preferred_skills": [],
+      "years_experience_min": 8,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "salary_type": "unknown",
+      "salary_basis": "",
+      "industry_tags": [
+        "enterprise"
+      ],
+      "role_tags": [
+        "FDE radar"
+      ],
+      "match_score": 88,
+      "match_rationale": "2026-W43 evidence-based fit estimate; retained until detailed re-score.",
+      "status": "active",
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-26",
+      "last_checked": "2026-10-26T08:36:41+08:00",
+      "last_changed": null,
+      "change_summary": "Re-observed 2026-10-26; no verified substantive change",
+      "evidence": [
+        {
+          "observed_at": "2026-10-19T08:44:54+08:00",
+          "url": "https://tw.linkedin.com/jobs/view/4441709853",
+          "note": "Imported 2026-W43 fallback baseline"
+        },
+        {
+          "observed_at": "2026-10-26T08:36:41+08:00",
+          "url": "https://tw.linkedin.com/jobs/view/4441709853",
+          "note": "Re-observed via indexed source/linked job listing; no proven salary change"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "job_id": "li-4466500390",
+      "company": "Google",
+      "title": "AI Customer Engineer Google Cloud",
+      "location": "台北",
+      "work_mode": "unknown",
+      "employment_type": "full-time",
+      "seniority": null,
+      "source_name": "LinkedIn",
+      "source_url": "https://tw.linkedin.com/jobs/view/4466500390",
+      "canonical_url": "https://tw.linkedin.com/jobs/view/4466500390",
+      "description_summary": "Prior-week tracked listing; detailed requirements not re-verified this week.",
+      "required_skills": [],
+      "preferred_skills": [],
+      "years_experience_min": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "salary_type": "unknown",
+      "salary_basis": "",
+      "industry_tags": [],
+      "role_tags": [
+        "FDE radar"
+      ],
+      "match_score": 87,
+      "match_rationale": "2026-W43 evidence-based fit estimate; retained until detailed re-score.",
+      "status": "unconfirmed",
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-19",
+      "last_checked": "2026-10-19T08:44:54+08:00",
+      "last_changed": null,
+      "change_summary": "Not directly reverified 2026-10-26; not assumed closed",
+      "evidence": [
+        {
+          "observed_at": "2026-10-19T08:44:54+08:00",
+          "url": "https://tw.linkedin.com/jobs/view/4466500390",
+          "note": "Imported 2026-W43 fallback baseline"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "job_id": "li-4466874055",
+      "company": "Google",
+      "title": "AI Outcome Customer Engineer Google Cloud",
+      "location": "台北",
+      "work_mode": "unknown",
+      "employment_type": "full-time",
+      "seniority": null,
+      "source_name": "LinkedIn",
+      "source_url": "https://tw.linkedin.com/jobs/view/4466874055",
+      "canonical_url": "https://tw.linkedin.com/jobs/view/4466874055",
+      "description_summary": "Prior-week tracked role; skills confirmed from public job descriptions: Cloud, Enterprise integration, APIs, Identity, Architecture.",
+      "required_skills": [
+        "Cloud",
+        "Enterprise integration",
+        "APIs",
+        "Identity",
+        "Architecture"
+      ],
+      "preferred_skills": [],
+      "years_experience_min": 7,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "salary_type": "unknown",
+      "salary_basis": "",
+      "industry_tags": [
+        "cloud",
+        "enterprise"
+      ],
+      "role_tags": [
+        "FDE radar"
+      ],
+      "match_score": 87,
+      "match_rationale": "2026-W43 evidence-based fit estimate; retained until detailed re-score.",
+      "status": "active",
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-26",
+      "last_checked": "2026-10-26T08:36:41+08:00",
+      "last_changed": null,
+      "change_summary": "Re-observed 2026-10-26; no verified substantive change",
+      "evidence": [
+        {
+          "observed_at": "2026-10-19T08:44:54+08:00",
+          "url": "https://tw.linkedin.com/jobs/view/4466874055",
+          "note": "Imported 2026-W43 fallback baseline"
+        },
+        {
+          "observed_at": "2026-10-26T08:36:41+08:00",
+          "url": "https://tw.linkedin.com/jobs/view/4466874055",
+          "note": "Re-observed via indexed source/linked job listing; no proven salary change"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "job_id": "w43-015",
+      "company": "伊雲谷",
+      "title": "AI Agent AI FDE",
+      "location": "新北三重",
+      "work_mode": "unknown",
+      "employment_type": "full-time",
+      "seniority": null,
+      "source_name": "104",
+      "source_url": "https://www.104.com.tw/company/1a2x6bilhz",
+      "canonical_url": "https://www.104.com.tw/company/1a2x6bilhz",
+      "description_summary": "Prior-week tracked role; skills confirmed from public job descriptions: AI Agent, RAG, Multi-agent, AWS Bedrock, Cloud.",
+      "required_skills": [
+        "AI Agent",
+        "RAG",
+        "Multi-agent",
+        "AWS Bedrock",
+        "Cloud"
+      ],
+      "preferred_skills": [],
+      "years_experience_min": 8,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "salary_type": "unknown",
+      "salary_basis": "",
+      "industry_tags": [
+        "enterprise",
+        "cloud"
+      ],
+      "role_tags": [
+        "FDE radar"
+      ],
+      "match_score": 86,
+      "match_rationale": "2026-W43 evidence-based fit estimate; retained until detailed re-score.",
+      "status": "active",
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-26",
+      "last_checked": "2026-10-26T08:36:41+08:00",
+      "last_changed": null,
+      "change_summary": "Re-observed 2026-10-26; no verified substantive change",
+      "evidence": [
+        {
+          "observed_at": "2026-10-19T08:44:54+08:00",
+          "url": "https://www.104.com.tw/company/1a2x6bilhz",
+          "note": "Imported 2026-W43 fallback baseline"
+        },
+        {
+          "observed_at": "2026-10-26T08:36:41+08:00",
+          "url": "https://www.104.com.tw/company/1a2x6bilhz",
+          "note": "Re-observed via indexed source/linked job listing; no proven salary change"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "job_id": "104-similar",
+      "company": "17Life",
+      "title": "Forward Deployed Engineer",
+      "location": "台北",
+      "work_mode": "unknown",
+      "employment_type": "full-time",
+      "seniority": null,
+      "source_name": "104",
+      "source_url": "https://www.104.com.tw/job/similar/8z5ze",
+      "canonical_url": "https://www.104.com.tw/job/similar/8z5ze",
+      "description_summary": "Prior-week tracked role; skills confirmed from public job descriptions: AI project delivery, Enterprise integration, Production.",
+      "required_skills": [
+        "AI project delivery",
+        "Enterprise integration",
+        "Production"
+      ],
+      "preferred_skills": [],
+      "years_experience_min": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "salary_type": "unknown",
+      "salary_basis": "",
+      "industry_tags": [],
+      "role_tags": [
+        "FDE radar"
+      ],
+      "match_score": 85,
+      "match_rationale": "2026-W43 evidence-based fit estimate; retained until detailed re-score.",
+      "status": "active",
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-26",
+      "last_checked": "2026-10-26T08:36:41+08:00",
+      "last_changed": null,
+      "change_summary": "Re-observed 2026-10-26; no verified substantive change",
+      "evidence": [
+        {
+          "observed_at": "2026-10-19T08:44:54+08:00",
+          "url": "https://www.104.com.tw/job/similar/8z5ze",
+          "note": "Imported 2026-W43 fallback baseline"
+        },
+        {
+          "observed_at": "2026-10-26T08:36:41+08:00",
+          "url": "https://www.104.com.tw/job/similar/8z5ze",
+          "note": "Re-observed via indexed source/linked job listing; no proven salary change"
+        }
+      ],
+      "notes": "Source is a job-index page, not an individual posting; direct job link pending"
+    },
+    {
+      "job_id": "li-4456235029",
+      "company": "Hupo",
+      "title": "Solutions Architect Mandarin speaking",
+      "location": "台灣",
+      "work_mode": "unknown",
+      "employment_type": "full-time",
+      "seniority": null,
+      "source_name": "LinkedIn",
+      "source_url": "https://www.linkedin.com/jobs/view/4456235029/",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4456235029/",
+      "description_summary": "Prior-week tracked listing; detailed requirements not re-verified this week.",
+      "required_skills": [],
+      "preferred_skills": [],
+      "years_experience_min": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "salary_type": "unknown",
+      "salary_basis": "",
+      "industry_tags": [],
+      "role_tags": [
+        "FDE radar"
+      ],
+      "match_score": 82,
+      "match_rationale": "2026-W43 evidence-based fit estimate; retained until detailed re-score.",
+      "status": "unconfirmed",
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-19",
+      "last_checked": "2026-10-19T08:44:54+08:00",
+      "last_changed": null,
+      "change_summary": "Not directly reverified 2026-10-26; not assumed closed",
+      "evidence": [
+        {
+          "observed_at": "2026-10-19T08:44:54+08:00",
+          "url": "https://www.linkedin.com/jobs/view/4456235029/",
+          "note": "Imported 2026-W43 fallback baseline"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "job_id": "li-4455729057",
+      "company": "AWS",
+      "title": "Senior GenAI Specialist Solutions Architect",
+      "location": "台北",
+      "work_mode": "unknown",
+      "employment_type": "full-time",
+      "seniority": null,
+      "source_name": "LinkedIn",
+      "source_url": "https://tw.linkedin.com/jobs/view/4455729057",
+      "canonical_url": "https://tw.linkedin.com/jobs/view/4455729057",
+      "description_summary": "Prior-week tracked listing; detailed requirements not re-verified this week.",
+      "required_skills": [],
+      "preferred_skills": [],
+      "years_experience_min": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "salary_type": "unknown",
+      "salary_basis": "",
+      "industry_tags": [],
+      "role_tags": [
+        "FDE radar"
+      ],
+      "match_score": 83,
+      "match_rationale": "2026-W43 evidence-based fit estimate; retained until detailed re-score.",
+      "status": "unconfirmed",
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-19",
+      "last_checked": "2026-10-19T08:44:54+08:00",
+      "last_changed": null,
+      "change_summary": "Not directly reverified 2026-10-26; not assumed closed",
+      "evidence": [
+        {
+          "observed_at": "2026-10-19T08:44:54+08:00",
+          "url": "https://tw.linkedin.com/jobs/view/4455729057",
+          "note": "Imported 2026-W43 fallback baseline"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "job_id": "104-961z7",
+      "company": "TeamSync AI",
+      "title": "全 AI 應用 FDE 導入顧問",
+      "location": "台北松山",
+      "work_mode": "unknown",
+      "employment_type": "full-time",
+      "seniority": null,
+      "source_name": "104",
+      "source_url": "https://www.104.com.tw/job/961z7",
+      "canonical_url": "https://www.104.com.tw/job/961z7",
+      "description_summary": "Prior-week tracked role; skills confirmed from public job descriptions: Customer discovery, AI prototyping, Enterprise adoption.",
+      "required_skills": [
+        "Customer discovery",
+        "AI prototyping",
+        "Enterprise adoption"
+      ],
+      "preferred_skills": [],
+      "years_experience_min": 0,
+      "salary_min": 800000,
+      "salary_max": 1600000,
+      "salary_currency": "TWD",
+      "salary_period": "year",
+      "salary_type": "published",
+      "salary_basis": "2026-W43 observed posting; JD text; 104 structured salary previously inconsistent",
+      "industry_tags": [
+        "enterprise"
+      ],
+      "role_tags": [
+        "FDE radar"
+      ],
+      "match_score": 79,
+      "match_rationale": "2026-W43 evidence-based fit estimate; retained until detailed re-score.",
+      "status": "active",
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-26",
+      "last_checked": "2026-10-26T08:36:41+08:00",
+      "last_changed": null,
+      "change_summary": "Re-observed 2026-10-26; no verified substantive change",
+      "evidence": [
+        {
+          "observed_at": "2026-10-19T08:44:54+08:00",
+          "url": "https://www.104.com.tw/job/961z7",
+          "note": "Imported 2026-W43 fallback baseline"
+        },
+        {
+          "observed_at": "2026-10-26T08:36:41+08:00",
+          "url": "https://www.104.com.tw/job/961z7",
+          "note": "Re-observed via indexed source/linked job listing; no proven salary change"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "job_id": "li-4465642140",
+      "company": "GMI Cloud",
+      "title": "Forward Deployment Engineer Inference RL POC",
+      "location": "台北標示但灣區需求不明",
+      "work_mode": "unknown",
+      "employment_type": "full-time",
+      "seniority": null,
+      "source_name": "LinkedIn",
+      "source_url": "https://tw.linkedin.com/jobs/view/4465642140",
+      "canonical_url": "https://tw.linkedin.com/jobs/view/4465642140",
+      "description_summary": "Prior-week tracked listing; detailed requirements not re-verified this week.",
+      "required_skills": [],
+      "preferred_skills": [],
+      "years_experience_min": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "salary_type": "unknown",
+      "salary_basis": "",
+      "industry_tags": [],
+      "role_tags": [
+        "FDE radar"
+      ],
+      "match_score": 65,
+      "match_rationale": "2026-W43 evidence-based fit estimate; retained until detailed re-score.",
+      "status": "unconfirmed",
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-19",
+      "last_checked": "2026-10-19T08:44:54+08:00",
+      "last_changed": null,
+      "change_summary": "Not directly reverified 2026-10-26; not assumed closed",
+      "evidence": [
+        {
+          "observed_at": "2026-10-19T08:44:54+08:00",
+          "url": "https://tw.linkedin.com/jobs/view/4465642140",
+          "note": "Imported 2026-W43 fallback baseline"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "job_id": "li-4419310337",
+      "company": "Google",
+      "title": "Forward Deployed Engineer Generative AI Google Cloud",
+      "location": "台北",
+      "work_mode": "unknown",
+      "employment_type": "full-time",
+      "seniority": null,
+      "source_name": "LinkedIn",
+      "source_url": "https://tw.linkedin.com/jobs/view/4419310337",
+      "canonical_url": "https://tw.linkedin.com/jobs/view/4419310337",
+      "description_summary": "Prior-week tracked listing; detailed requirements not re-verified this week.",
+      "required_skills": [],
+      "preferred_skills": [],
+      "years_experience_min": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "salary_type": "unknown",
+      "salary_basis": "",
+      "industry_tags": [],
+      "role_tags": [
+        "FDE radar"
+      ],
+      "match_score": 86,
+      "match_rationale": "2026-W43 evidence-based fit estimate; retained until detailed re-score.",
+      "status": "closed_verified",
+      "first_seen": "2026-10-19",
+      "last_seen": null,
+      "last_checked": "2026-10-19T08:44:54+08:00",
+      "last_changed": null,
+      "change_summary": "Closure recorded in W43; not rechecked",
+      "evidence": [
+        {
+          "observed_at": "2026-10-19T08:44:54+08:00",
+          "url": "https://tw.linkedin.com/jobs/view/4419310337",
+          "note": "Imported 2026-W43 fallback baseline"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "job_id": "li-4463230021",
+      "company": "Altos Computing",
+      "title": "AI Solutions Engineer",
+      "location": "台灣",
+      "work_mode": "unknown",
+      "employment_type": "full-time",
+      "seniority": null,
+      "source_name": "LinkedIn",
+      "source_url": "https://tw.linkedin.com/jobs/view/4463230021",
+      "canonical_url": "https://tw.linkedin.com/jobs/view/4463230021",
+      "description_summary": "Prior-week tracked listing; detailed requirements not re-verified this week.",
+      "required_skills": [],
+      "preferred_skills": [],
+      "years_experience_min": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "salary_type": "unknown",
+      "salary_basis": "",
+      "industry_tags": [],
+      "role_tags": [
+        "FDE radar"
+      ],
+      "match_score": 75,
+      "match_rationale": "2026-W43 evidence-based fit estimate; retained until detailed re-score.",
+      "status": "closed_verified",
+      "first_seen": "2026-10-19",
+      "last_seen": null,
+      "last_checked": "2026-10-19T08:44:54+08:00",
+      "last_changed": null,
+      "change_summary": "Closure recorded in W43; not rechecked",
+      "evidence": [
+        {
+          "observed_at": "2026-10-19T08:44:54+08:00",
+          "url": "https://tw.linkedin.com/jobs/view/4463230021",
+          "note": "Imported 2026-W43 fallback baseline"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "job_id": "li-4402372493",
+      "company": "Going Cloud",
+      "title": "Senior FDE 舊刊登",
+      "location": "台北",
+      "work_mode": "unknown",
+      "employment_type": "full-time",
+      "seniority": null,
+      "source_name": "LinkedIn",
+      "source_url": "https://tw.linkedin.com/jobs/view/4402372493",
+      "canonical_url": "https://tw.linkedin.com/jobs/view/4402372493",
+      "description_summary": "Prior-week tracked listing; detailed requirements not re-verified this week.",
+      "required_skills": [],
+      "preferred_skills": [],
+      "years_experience_min": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "salary_type": "unknown",
+      "salary_basis": "",
+      "industry_tags": [],
+      "role_tags": [
+        "FDE radar"
+      ],
+      "match_score": 83,
+      "match_rationale": "2026-W43 evidence-based fit estimate; retained until detailed re-score.",
+      "status": "closed_verified",
+      "first_seen": "2026-10-19",
+      "last_seen": null,
+      "last_checked": "2026-10-19T08:44:54+08:00",
+      "last_changed": null,
+      "change_summary": "Closure recorded in W43; not rechecked",
+      "evidence": [
+        {
+          "observed_at": "2026-10-19T08:44:54+08:00",
+          "url": "https://tw.linkedin.com/jobs/view/4402372493",
+          "note": "Imported 2026-W43 fallback baseline"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "job_id": "104-96q3l",
+      "company": "群聯電子 (Phison)",
+      "title": "AI 應用導入工程師（FDE｜Forward Deployed Engineer）",
+      "location": "新北板橋",
+      "work_mode": "unknown",
+      "employment_type": "full-time",
+      "seniority": null,
+      "source_name": "104",
+      "source_url": "https://www.104.com.tw/job/96q3l",
+      "canonical_url": "https://www.104.com.tw/job/96q3l",
+      "description_summary": "GenBI、MCP、Text-to-SQL 驗證與地端 AI 平台整合，貼近 Agent／系統／硬體背景；需補語意層及 K8s。",
+      "required_skills": [
+        "Wren AI",
+        "GenBI",
+        "Text-to-SQL",
+        "MCP",
+        "Multi-agent",
+        "Python",
+        "SQL",
+        "Kubernetes",
+        "LLM evals",
+        "Enterprise integration"
+      ],
+      "preferred_skills": [],
+      "years_experience_min": 0,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "salary_type": "unknown",
+      "salary_basis": "",
+      "industry_tags": [
+        "manufacturing",
+        "enterprise",
+        "on-prem"
+      ],
+      "role_tags": [
+        "FDE radar"
+      ],
+      "match_score": 95,
+      "match_rationale": "GenBI、MCP、Text-to-SQL 驗證與地端 AI 平台整合，貼近 Agent／系統／硬體背景；需補語意層及 K8s。",
+      "status": "active",
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26",
+      "last_checked": "2026-10-26T08:36:41+08:00",
+      "last_changed": "2026-10-26T08:36:41+08:00",
+      "change_summary": "Newly discovered in W44 scan; NOT proof that employer first posted it this week.",
+      "evidence": [
+        {
+          "observed_at": "2026-10-26T08:36:41+08:00",
+          "url": "https://www.104.com.tw/job/96q3l",
+          "note": "104 individual job page blocks automated reads; same-job application analysis updated 2026-10-23 and public 104 search listing 2026-10-22."
+        }
+      ],
+      "notes": "104 individual job page blocks automated reads; same-job application analysis updated 2026-10-23 and public 104 search listing 2026-10-22."
+    },
+    {
+      "job_id": "innowave-IW-000015",
+      "company": "Innowave Tech",
+      "title": "Forward Deployed Engineer (FDE)",
+      "location": "新竹",
+      "work_mode": "hybrid",
+      "employment_type": "full-time",
+      "seniority": null,
+      "source_name": "Employer careers",
+      "source_url": "https://innowave.com.sg/careers/forward-deployed-engineer-fde-15",
+      "canonical_url": "https://innowave.com.sg/careers/forward-deployed-engineer-fde-15",
+      "description_summary": "新竹半導體／製造現場 AI 部署、故障排查、客戶協作與 Production Reliability；Agent 為加分而非核心。",
+      "required_skills": [
+        "Python",
+        "Linux",
+        "SQL",
+        "REST API",
+        "System integration",
+        "Production troubleshooting",
+        "Manufacturing AI"
+      ],
+      "preferred_skills": [],
+      "years_experience_min": null,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "salary_type": "unknown",
+      "salary_basis": "",
+      "industry_tags": [
+        "manufacturing",
+        "semiconductor",
+        "enterprise"
+      ],
+      "role_tags": [
+        "FDE radar"
+      ],
+      "match_score": 92,
+      "match_rationale": "新竹半導體／製造現場 AI 部署、故障排查、客戶協作與 Production Reliability；Agent 為加分而非核心。",
+      "status": "active",
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26",
+      "last_checked": "2026-10-26T08:36:41+08:00",
+      "last_changed": "2026-10-26T08:36:41+08:00",
+      "change_summary": "Newly discovered in W44 scan; NOT proof that employer first posted it this week.",
+      "evidence": [
+        {
+          "observed_at": "2026-10-26T08:36:41+08:00",
+          "url": "https://innowave.com.sg/careers/forward-deployed-engineer-fde-15",
+          "note": "Employer page explicitly says Published Oct 13, 2026; Hybrid; no numerical salary."
+        }
+      ],
+      "notes": "Employer page explicitly says Published Oct 13, 2026; Hybrid; no numerical salary."
+    },
+    {
+      "job_id": "yourator-profet-47495",
+      "company": "Profet AI（杰倫智能）",
+      "title": "前端部屬工程師｜Forward Deployed Engineer",
+      "location": "台北",
+      "work_mode": "unknown",
+      "employment_type": "full-time",
+      "seniority": null,
+      "source_name": "Yourator",
+      "source_url": "https://www.yourator.co/companies/profetai/jobs/47495",
+      "canonical_url": "https://www.yourator.co/companies/profetai/jobs/47495",
+      "description_summary": "製造 AI、地端／雲端／混合部署與客戶現場整合高度契合；偏 Infra，Agent 程式開發比重較低。",
+      "required_skills": [
+        "Linux",
+        "TCP/IP",
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "Azure",
+        "GPU",
+        "Customer deployment"
+      ],
+      "preferred_skills": [],
+      "years_experience_min": 1,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "salary_type": "unknown",
+      "salary_basis": "",
+      "industry_tags": [
+        "manufacturing",
+        "semiconductor",
+        "enterprise"
+      ],
+      "role_tags": [
+        "FDE radar"
+      ],
+      "match_score": 90,
+      "match_rationale": "製造 AI、地端／雲端／混合部署與客戶現場整合高度契合；偏 Infra，Agent 程式開發比重較低。",
+      "status": "active",
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26",
+      "last_checked": "2026-10-26T08:36:41+08:00",
+      "last_changed": "2026-10-26T08:36:41+08:00",
+      "change_summary": "Newly discovered in W44 scan; NOT proof that employer first posted it this week.",
+      "evidence": [
+        {
+          "observed_at": "2026-10-26T08:36:41+08:00",
+          "url": "https://www.yourator.co/companies/profetai/jobs/47495",
+          "note": "Yourator updated Oct 8, 2026. Negotiable above TWD 40k is a disclosure floor, not a verified market salary range."
+        }
+      ],
+      "notes": "Yourator updated Oct 8, 2026. Negotiable above TWD 40k is a disclosure floor, not a verified market salary range."
+    },
+    {
+      "job_id": "li-4411487616",
+      "company": "Cresta",
+      "title": "Senior Forward Deployed Engineer (AI Agent)",
+      "location": "台灣",
+      "work_mode": "unknown",
+      "employment_type": "full-time",
+      "seniority": null,
+      "source_name": "LinkedIn",
+      "source_url": "https://www.linkedin.com/jobs/view/4411487616/",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4411487616/",
+      "description_summary": "客戶 AI Agent 導入、CRM/API 整合、性能與業務成果；需確認 Golang 與英文交付。",
+      "required_skills": [
+        "Python",
+        "Golang",
+        "LLM",
+        "RAG",
+        "Function calling",
+        "API",
+        "CRM",
+        "Cloud",
+        "CI/CD"
+      ],
+      "preferred_skills": [],
+      "years_experience_min": 3,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "salary_type": "unknown",
+      "salary_basis": "",
+      "industry_tags": [
+        "enterprise",
+        "cloud"
+      ],
+      "role_tags": [
+        "FDE radar"
+      ],
+      "match_score": 88,
+      "match_rationale": "客戶 AI Agent 導入、CRM/API 整合、性能與業務成果；需確認 Golang 與英文交付。",
+      "status": "unconfirmed",
+      "first_seen": "2026-10-26",
+      "last_seen": null,
+      "last_checked": "2026-10-26T08:36:41+08:00",
+      "last_changed": "2026-10-26T08:36:41+08:00",
+      "change_summary": "Newly discovered in W44 scan; NOT proof that employer first posted it this week.",
+      "evidence": [
+        {
+          "observed_at": "2026-10-26T08:36:41+08:00",
+          "url": "https://www.linkedin.com/jobs/view/4411487616/",
+          "note": "LinkedIn public listing was indexed last month; current application availability not directly revalidated."
+        }
+      ],
+      "notes": "LinkedIn public listing was indexed last month; current application availability not directly revalidated."
+    },
+    {
+      "job_id": "workday-prudential-26030029",
+      "company": "Prudential Taiwan（保誠）",
+      "title": "AI & Data Solutions Architect",
+      "location": "台北",
+      "work_mode": "unknown",
+      "employment_type": "full-time",
+      "seniority": "senior",
+      "source_name": "Employer careers",
+      "source_url": "https://prudential.wd3.myworkdayjobs.com/zh-TW/prudential/job/AI-Application-Engineer_26030029",
+      "canonical_url": "https://prudential.wd3.myworkdayjobs.com/zh-TW/prudential/job/AI-Application-Engineer_26030029",
+      "description_summary": "企業 AI 架構、Agent 治理、Production Assurance、技術領導高度相關；金融保險 Domain 與雲端治理為轉換門檻。",
+      "required_skills": [
+        "AI architecture",
+        "Agentic AI",
+        "RAG",
+        "MLOps",
+        "LLMOps",
+        "Governance",
+        "Azure",
+        "Databricks",
+        "Security"
+      ],
+      "preferred_skills": [],
+      "years_experience_min": 10,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "salary_type": "unknown",
+      "salary_basis": "",
+      "industry_tags": [
+        "enterprise",
+        "cloud",
+        "regulated"
+      ],
+      "role_tags": [
+        "FDE radar"
+      ],
+      "match_score": 86,
+      "match_rationale": "企業 AI 架構、Agent 治理、Production Assurance、技術領導高度相關；金融保險 Domain 與雲端治理為轉換門檻。",
+      "status": "active",
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26",
+      "last_checked": "2026-10-26T08:36:41+08:00",
+      "last_changed": "2026-10-26T08:36:41+08:00",
+      "change_summary": "Newly discovered in W44 scan; NOT proof that employer first posted it this week.",
+      "evidence": [
+        {
+          "observed_at": "2026-10-26T08:36:41+08:00",
+          "url": "https://prudential.wd3.myworkdayjobs.com/zh-TW/prudential/job/AI-Application-Engineer_26030029",
+          "note": "Employer Workday listing surfaced 2026-10-26; 10+ years requirement, salary not disclosed."
+        }
+      ],
+      "notes": "Employer Workday listing surfaced 2026-10-26; 10+ years requirement, salary not disclosed."
+    },
+    {
+      "job_id": "104-96sow",
+      "company": "肯美資訊科技",
+      "title": "前端部屬工程師 - FDE / 專案經理 - PM",
+      "location": "台北內湖",
+      "work_mode": "unknown",
+      "employment_type": "full-time",
+      "seniority": null,
+      "source_name": "104",
+      "source_url": "https://www.104.com.tw/job/96sow",
+      "canonical_url": "https://www.104.com.tw/job/96sow",
+      "description_summary": "AI Agent 客戶導入與 PoC 交付相符，但職缺同時包含 PM 且以 kintone 為核心，工程深度需確認。",
+      "required_skills": [
+        "Codex",
+        "Claude",
+        "RAG",
+        "Agent",
+        "kintone",
+        "PoC",
+        "Enterprise delivery"
+      ],
+      "preferred_skills": [],
+      "years_experience_min": 0,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "salary_type": "unknown",
+      "salary_basis": "",
+      "industry_tags": [
+        "enterprise",
+        "cloud"
+      ],
+      "role_tags": [
+        "FDE radar"
+      ],
+      "match_score": 79,
+      "match_rationale": "AI Agent 客戶導入與 PoC 交付相符，但職缺同時包含 PM 且以 kintone 為核心，工程深度需確認。",
+      "status": "active",
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26",
+      "last_checked": "2026-10-26T08:36:41+08:00",
+      "last_changed": "2026-10-26T08:36:41+08:00",
+      "change_summary": "Newly discovered in W44 scan; NOT proof that employer first posted it this week.",
+      "evidence": [
+        {
+          "observed_at": "2026-10-26T08:36:41+08:00",
+          "url": "https://www.104.com.tw/job/96sow",
+          "note": "104 direct page restricted; 104 public search index crawled recently."
+        }
+      ],
+      "notes": "104 direct page restricted; 104 public search index crawled recently."
+    },
+    {
+      "job_id": "104-915p1",
+      "company": "鼎新數智",
+      "title": "C-AI系統架構師(新店)",
+      "location": "新北新店",
+      "work_mode": "unknown",
+      "employment_type": "full-time",
+      "seniority": null,
+      "source_name": "104",
+      "source_url": "https://www.104.com.tw/job/915p1",
+      "canonical_url": "https://www.104.com.tw/job/915p1",
+      "description_summary": "企業多 Agent Orchestrator、ERP/BPM 整合與品質驗證，非常符合 Agent 系統架構背景；仍需確認目前招募狀態。",
+      "required_skills": [
+        "Multi-Agent",
+        "Orchestration",
+        "API",
+        "ERP",
+        "BPM",
+        "Memory",
+        "Vertex AI",
+        "Cloud Run",
+        "LLM evaluation"
+      ],
+      "preferred_skills": [],
+      "years_experience_min": 3,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "salary_type": "unknown",
+      "salary_basis": "",
+      "industry_tags": [
+        "manufacturing",
+        "enterprise",
+        "cloud"
+      ],
+      "role_tags": [
+        "FDE radar"
+      ],
+      "match_score": 89,
+      "match_rationale": "企業多 Agent Orchestrator、ERP/BPM 整合與品質驗證，非常符合 Agent 系統架構背景；仍需確認目前招募狀態。",
+      "status": "unconfirmed",
+      "first_seen": "2026-10-26",
+      "last_seen": null,
+      "last_checked": "2026-10-26T08:36:41+08:00",
+      "last_changed": "2026-10-26T08:36:41+08:00",
+      "change_summary": "Newly discovered in W44 scan; NOT proof that employer first posted it this week.",
+      "evidence": [
+        {
+          "observed_at": "2026-10-26T08:36:41+08:00",
+          "url": "https://www.104.com.tw/job/915p1",
+          "note": "104 similar-job page for this ID exists, but direct individual page cannot be independently read."
+        }
+      ],
+      "notes": "104 similar-job page for this ID exists, but direct individual page cannot be independently read."
+    },
+    {
+      "job_id": "li-4443134495",
+      "company": "Micron Technology",
+      "title": "Full-Stack AI Engineer, Industrial and Physical AI",
+      "location": "台中",
+      "work_mode": "unknown",
+      "employment_type": "full-time",
+      "seniority": null,
+      "source_name": "LinkedIn",
+      "source_url": "https://www.linkedin.com/jobs/view/4443134495/",
+      "canonical_url": "https://www.linkedin.com/jobs/view/4443134495/",
+      "description_summary": "工廠 MES、Agent、Production 與完整 AI 系統工程高度相關；為不同地點／不同職缺 ID，勿與上週桃園職缺合併。",
+      "required_skills": [
+        "Python",
+        "FastAPI",
+        "MES",
+        "React",
+        "Docker",
+        "Kubernetes",
+        "CI/CD",
+        "Agentic AI",
+        "MLOps",
+        "Observability"
+      ],
+      "preferred_skills": [],
+      "years_experience_min": 2,
+      "salary_min": null,
+      "salary_max": null,
+      "salary_currency": null,
+      "salary_period": null,
+      "salary_type": "unknown",
+      "salary_basis": "",
+      "industry_tags": [
+        "manufacturing",
+        "semiconductor",
+        "cloud"
+      ],
+      "role_tags": [
+        "FDE radar"
+      ],
+      "match_score": 92,
+      "match_rationale": "工廠 MES、Agent、Production 與完整 AI 系統工程高度相關；為不同地點／不同職缺 ID，勿與上週桃園職缺合併。",
+      "status": "unconfirmed",
+      "first_seen": "2026-10-26",
+      "last_seen": null,
+      "last_checked": "2026-10-26T08:36:41+08:00",
+      "last_changed": "2026-10-26T08:36:41+08:00",
+      "change_summary": "Newly discovered in W44 scan; NOT proof that employer first posted it this week.",
+      "evidence": [
+        {
+          "observed_at": "2026-10-26T08:36:41+08:00",
+          "url": "https://www.linkedin.com/jobs/view/4443134495/",
+          "note": "Indexed LinkedIn listing may be stale (last crawled ~2 months ago); current application availability unconfirmed."
+        }
+      ],
+      "notes": "Indexed LinkedIn listing may be stale (last crawled ~2 months ago); current application availability unconfirmed."
+    }
+  ],
+  "scan_notes": [
+    "Newly discovered != first posted this week.",
+    "Three historical closures were recorded in W43, none newly verified closed in W44.",
+    "104 individual pages frequently restricted; linked 104 search and application-analysis pages support several records.",
+    "Some prior jobs have been marked unconfirmed because no current direct evidence was recovered.",
+    "Some current salary disclosures are older and not re-verified; do not claim unchanged salary.",
+    "Cresta, Digiwin and Micron Taichung have insufficient fresh application-state evidence."
+  ]
+}
