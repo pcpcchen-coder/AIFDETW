@@ -1,0 +1,289 @@
+{
+  "schema_version": 1,
+  "week": "2026-W43",
+  "scan_type": "imported_local_fallback_baseline",
+  "scan_started_at": "2026-10-19T08:44:54+08:00",
+  "prior_snapshot": null,
+  "comparison_available": false,
+  "original_github_write_status": "blocked_by_safety_checks",
+  "imported_at": "2026-10-26",
+  "import_source": "AIFDETW_2026-W43_fallback.zip from prior scheduled run; manually normalized without re-running historical search",
+  "sources_checked": [
+    "104 public job/index pages",
+    "LinkedIn public job pages",
+    "1111 cross-check"
+  ],
+  "jobs": [
+    {
+      "company": "Teradyne",
+      "title": "AI Enablement Forward Deployed Engineer",
+      "location": "竹北",
+      "match_score": 95,
+      "source_url": "https://tw.linkedin.com/jobs/view/4474438506",
+      "status": "active",
+      "first_seen": "2026-10-19",
+      "last_checked": "2026-10-19T08:44:54+08:00",
+      "salary": null
+    },
+    {
+      "company": "華新麗華",
+      "title": "前端部署工程師 FDE",
+      "location": "台北信義",
+      "match_score": 94,
+      "source_url": "https://www.104.com.tw/job/95cgj",
+      "status": "active",
+      "first_seen": "2026-10-19",
+      "last_checked": "2026-10-19T08:44:54+08:00",
+      "salary": null
+    },
+    {
+      "company": "Micron Technology",
+      "title": "Full-Stack AI Engineer Industrial and Physical AI",
+      "location": "桃園",
+      "match_score": 93,
+      "source_url": "https://www.linkedin.com/jobs/view/4443137404/",
+      "status": "active",
+      "first_seen": "2026-10-19",
+      "last_checked": "2026-10-19T08:44:54+08:00",
+      "salary": null
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Senior AI Agent Development Engineer",
+      "location": "新竹",
+      "match_score": 91,
+      "source_url": "https://tw.linkedin.com/jobs/view/4448903465",
+      "status": "active",
+      "first_seen": "2026-10-19",
+      "last_checked": "2026-10-19T08:44:54+08:00",
+      "salary": null
+    },
+    {
+      "company": "十論科技",
+      "title": "Forward Deployed Engineer",
+      "location": "台北中山",
+      "match_score": 91,
+      "source_url": "https://www.104.com.tw/job/92xbd",
+      "status": "active",
+      "first_seen": "2026-10-19",
+      "last_checked": "2026-10-19T08:44:54+08:00",
+      "salary": {
+        "min": 800000,
+        "max": 1500000,
+        "currency": "TWD",
+        "period": "year",
+        "type": "published"
+      }
+    },
+    {
+      "company": "Instrumental",
+      "title": "Senior Forward Deployed Engineer Taiwan",
+      "location": "台灣工廠",
+      "match_score": 90,
+      "source_url": "https://tw.linkedin.com/jobs/view/4440839956",
+      "status": "active",
+      "first_seen": "2026-10-19",
+      "last_checked": "2026-10-19T08:44:54+08:00",
+      "salary": null
+    },
+    {
+      "company": "Pegatron",
+      "title": "EdgeAI FDE",
+      "location": "台北北投",
+      "match_score": 90,
+      "source_url": "https://www.104.com.tw/job/90oe4",
+      "status": "active",
+      "first_seen": "2026-10-19",
+      "last_checked": "2026-10-19T08:44:54+08:00",
+      "salary": null
+    },
+    {
+      "company": "Going Cloud",
+      "title": "Senior Forward Deployed Engineer GenAI Solutions",
+      "location": "台北",
+      "match_score": 89,
+      "source_url": "https://tw.linkedin.com/jobs/view/4470292479",
+      "status": "active",
+      "first_seen": "2026-10-19",
+      "last_checked": "2026-10-19T08:44:54+08:00",
+      "salary": null
+    },
+    {
+      "company": "TrendAI",
+      "title": "Sr Applied AI Engineer",
+      "location": "台北",
+      "match_score": 89,
+      "source_url": "https://tw.linkedin.com/jobs/view/4428878102",
+      "status": "active",
+      "first_seen": "2026-10-19",
+      "last_checked": "2026-10-19T08:44:54+08:00",
+      "salary": null
+    },
+    {
+      "company": "永豐餘投資控股",
+      "title": "Z-AI應用工程師 FDE",
+      "location": "台北中正",
+      "match_score": 88,
+      "source_url": "https://www.104.com.tw/job/93zt4",
+      "status": "active",
+      "first_seen": "2026-10-19",
+      "last_checked": "2026-10-19T08:44:54+08:00",
+      "salary": null
+    },
+    {
+      "company": "樂達創意科技",
+      "title": "Forward Deployed Engineer",
+      "location": "桃園中壢",
+      "match_score": 88,
+      "source_url": "https://www.104.com.tw/job/95wjf",
+      "status": "active",
+      "first_seen": "2026-10-19",
+      "last_checked": "2026-10-19T08:44:54+08:00",
+      "salary": null
+    },
+    {
+      "company": "BCG X",
+      "title": "Lead Forward Deployed AI Engineer",
+      "location": "台北",
+      "match_score": 88,
+      "source_url": "https://tw.linkedin.com/jobs/view/4441709853",
+      "status": "active",
+      "first_seen": "2026-10-19",
+      "last_checked": "2026-10-19T08:44:54+08:00",
+      "salary": null
+    },
+    {
+      "company": "Google",
+      "title": "AI Customer Engineer Google Cloud",
+      "location": "台北",
+      "match_score": 87,
+      "source_url": "https://tw.linkedin.com/jobs/view/4466500390",
+      "status": "active",
+      "first_seen": "2026-10-19",
+      "last_checked": "2026-10-19T08:44:54+08:00",
+      "salary": null
+    },
+    {
+      "company": "Google",
+      "title": "AI Outcome Customer Engineer Google Cloud",
+      "location": "台北",
+      "match_score": 87,
+      "source_url": "https://tw.linkedin.com/jobs/view/4466874055",
+      "status": "active",
+      "first_seen": "2026-10-19",
+      "last_checked": "2026-10-19T08:44:54+08:00",
+      "salary": null
+    },
+    {
+      "company": "伊雲谷",
+      "title": "AI Agent AI FDE",
+      "location": "新北三重",
+      "match_score": 86,
+      "source_url": "https://www.104.com.tw/company/1a2x6bilhz",
+      "status": "active",
+      "first_seen": "2026-10-19",
+      "last_checked": "2026-10-19T08:44:54+08:00",
+      "salary": null
+    },
+    {
+      "company": "17Life",
+      "title": "Forward Deployed Engineer",
+      "location": "台北",
+      "match_score": 85,
+      "source_url": "https://www.104.com.tw/job/similar/8z5ze",
+      "status": "active",
+      "first_seen": "2026-10-19",
+      "last_checked": "2026-10-19T08:44:54+08:00",
+      "salary": null
+    },
+    {
+      "company": "Hupo",
+      "title": "Solutions Architect Mandarin speaking",
+      "location": "台灣",
+      "match_score": 82,
+      "source_url": "https://www.linkedin.com/jobs/view/4456235029/",
+      "status": "active",
+      "first_seen": "2026-10-19",
+      "last_checked": "2026-10-19T08:44:54+08:00",
+      "salary": null
+    },
+    {
+      "company": "AWS",
+      "title": "Senior GenAI Specialist Solutions Architect",
+      "location": "台北",
+      "match_score": 83,
+      "source_url": "https://tw.linkedin.com/jobs/view/4455729057",
+      "status": "active",
+      "first_seen": "2026-10-19",
+      "last_checked": "2026-10-19T08:44:54+08:00",
+      "salary": null
+    },
+    {
+      "company": "TeamSync AI",
+      "title": "全 AI 應用 FDE 導入顧問",
+      "location": "台北松山",
+      "match_score": 79,
+      "source_url": "https://www.104.com.tw/job/961z7",
+      "status": "active",
+      "first_seen": "2026-10-19",
+      "last_checked": "2026-10-19T08:44:54+08:00",
+      "salary": {
+        "min": 800000,
+        "max": 1600000,
+        "currency": "TWD",
+        "period": "year",
+        "type": "published",
+        "note": "JD text; 104 structured salary previously inconsistent"
+      }
+    },
+    {
+      "company": "GMI Cloud",
+      "title": "Forward Deployment Engineer Inference RL POC",
+      "location": "台北標示但灣區需求不明",
+      "match_score": 65,
+      "source_url": "https://tw.linkedin.com/jobs/view/4465642140",
+      "status": "active",
+      "first_seen": "2026-10-19",
+      "last_checked": "2026-10-19T08:44:54+08:00",
+      "salary": null
+    },
+    {
+      "company": "Google",
+      "title": "Forward Deployed Engineer Generative AI Google Cloud",
+      "location": "台北",
+      "match_score": 86,
+      "source_url": "https://tw.linkedin.com/jobs/view/4419310337",
+      "status": "closed_verified",
+      "first_seen": "2026-10-19",
+      "last_checked": "2026-10-19T08:44:54+08:00",
+      "salary": null
+    },
+    {
+      "company": "Altos Computing",
+      "title": "AI Solutions Engineer",
+      "location": "台灣",
+      "match_score": 75,
+      "source_url": "https://tw.linkedin.com/jobs/view/4463230021",
+      "status": "closed_verified",
+      "first_seen": "2026-10-19",
+      "last_checked": "2026-10-19T08:44:54+08:00",
+      "salary": null
+    },
+    {
+      "company": "Going Cloud",
+      "title": "Senior FDE 舊刊登",
+      "location": "台北",
+      "match_score": 83,
+      "source_url": "https://tw.linkedin.com/jobs/view/4402372493",
+      "status": "closed_verified",
+      "first_seen": "2026-10-19",
+      "last_checked": "2026-10-19T08:44:54+08:00",
+      "salary": null
+    }
+  ],
+  "notes": [
+    "Historical first_seen refers to discovery date, not job publication date.",
+    "Original W43 report was generated locally and had no repository commit.",
+    "The 23 observations include 3 listings marked closed in the 2026-10-19 report."
+  ]
+}
