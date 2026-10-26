@@ -2,7 +2,7 @@
   "schema_version": 1,
   "week": "2026-W44",
   "scan_started_at": "2026-10-26T08:36:41+08:00",
-  "scan_completed_at": "2026-10-26T08:36:41+08:00",
+  "scan_completed_at": "2026-10-26T08:42:21+08:00",
   "scan_type": "weekly_delta_with_imported_local_baseline",
   "prior_snapshot": "2026-W43.json",
   "baseline_commit": "cc62b31db0f4c9b6688a87311b226e9be7938ac0",
@@ -12,22 +12,30 @@
     {
       "source": "104",
       "coverage": "Public search/index pages, individual job pages often restricted",
-      "status": "partial"
+      "status": "partial",
+      "new_discoveries": 3,
+      "ledger_records": 11
     },
     {
       "source": "LinkedIn",
       "coverage": "Public listings via search index, direct pages inconsistent",
-      "status": "partial"
+      "status": "partial",
+      "new_discoveries": 2,
+      "ledger_records": 17
     },
     {
       "source": "Employer careers",
       "coverage": "Innowave Tech and Prudential Workday",
-      "status": "verified"
+      "status": "verified",
+      "new_discoveries": 2,
+      "ledger_records": 2
     },
     {
       "source": "Yourator",
       "coverage": "Profet AI",
-      "status": "verified"
+      "status": "verified",
+      "new_discoveries": 1,
+      "ledger_records": 1
     }
   ],
   "counts": {
@@ -1657,6 +1665,7 @@
     "104 individual pages frequently restricted; linked 104 search and application-analysis pages support several records.",
     "Some prior jobs have been marked unconfirmed because no current direct evidence was recovered.",
     "Some current salary disclosures are older and not re-verified; do not claim unchanged salary.",
-    "Cresta, Digiwin and Micron Taichung have insufficient fresh application-state evidence."
+    "Cresta, Digiwin and Micron Taichung have insufficient fresh application-state evidence.",
+    "Source coverage counts refer to normalized ledger observations, not total search hits or exhaustive platform vacancy counts."
   ]
 }
